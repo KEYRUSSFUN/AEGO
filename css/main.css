@@ -1,21 +1,21 @@
 /* Ubuntu */
 @font-face {
     font-family: 'Ubuntu-Regular';
-    src: url('/fonts/ubuntu/Ubuntu-Regular.ttf') format('truetype');
+    src: url('../fonts/ubuntu/Ubuntu-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 /* Ubuntu-Medium*/
 @font-face {
     font-family: 'Ubuntu-Medium';
-    src: url('/fonts/ubuntu/Ubuntu-Medium.ttf') format('truetype');
+    src: url('../fonts/ubuntu/Ubuntu-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 /* Ubuntu-Bold */
 @font-face {
     font-family: 'Ubuntu-Bold';
-    src: url('/fonts/ubuntu/Ubuntu-Bold.ttf') format('truetype');
+    src: url('../fonts/ubuntu/Ubuntu-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
@@ -23,7 +23,7 @@
 /*Tenor sans*/
 @font-face {
     font-family: 'TenorSans-Regular';
-    src: url('/fonts/tenor_sans/TenorSans-Regular.ttf') format('truetype');
+    src: url('../fonts/tenor_sans/TenorSans-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
