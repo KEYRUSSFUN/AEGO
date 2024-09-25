@@ -1,0 +1,40 @@
+.examples-title {
+    font-family: 'TenorSans-Regular';
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: left;
+    padding-top: 65px;
+    padding-bottom: 55px;
+}
+
+.examples-item-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Ubuntu-Regular';
+    margin-bottom: 50px;
+}
+
+.examples-img-wrapper {
+    position: relative;
+    width: 23.96%;
+}
+
+.examples-img {
+    max-width: 100%;
+}
+
+.examples-img-footnote {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--mustard-color);
+    padding: 15px 10px;
+    color: white;
+    font-family: 'Ubuntu-Bold';
+}
+
+.examples-text {
+    width: 48.58%;
+    color: var(--ligth-grey-color);
+    font-size: 17px;
+}

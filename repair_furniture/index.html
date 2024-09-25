@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AEGO</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/main-adaptive.css">
+    <title>Ремонт мебели</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/main-adaptive.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/repair-furniture.css">
 </head>
 <body>
     <div class="header">
         <div class="header-top-block">
             <a href="/" class="header-logo">
-                <img src="./images/icons/logo.png" alt="AEGO">
+                <img src="../images/icons/logo.png" alt="AEGO">
             </a>
             <div class="header-search-block">
                 <div class="header-search-title">
@@ -21,13 +23,13 @@
             </div>
             <div class="phone-number-block">
                 <div class="phone-number">
-                    <img class="phone-number-icon" src="./images/icons/mobile.png" alt="Телефон">
+                    <img class="phone-number-icon" src="../images/icons/mobile.png" alt="Телефон">
                     <div class="phone-number-label">
                         8 (980) 215-30-01
                     </div>
                 </div>
                 <div class="phone-number">
-                    <img class="phone-number-icon" src="./images/icons/mobile.png" alt="Телефон">
+                    <img class="phone-number-icon" src="../images/icons/mobile.png" alt="Телефон">
                     <div class="phone-number-label">
                         8 (980) 215-30-01
                     </div>
@@ -35,7 +37,7 @@
                 <button class="order-call-button" >Заказать звонок</button>
             </div>
             <div class="location-block">
-                <img src="./images/icons/gps.png" alt="Московская область, Пушкино,
+                <img src="../images/icons/gps.png" alt="Московская область, Пушкино,
                 Соколовская улица, 22" class="location-icon">
                 <div class="location-label">
                     Московская область, Пушкино,
@@ -44,15 +46,15 @@
             </div>
             <div class="mobile-icons-block">
                 <div class="mobile-search-block">
-                    <img src="./images/icons/search-icon.svg" alt="Мобильная иконка поиска">
+                    <img src="../images/icons/search-icon.svg" alt="Мобильная иконка поиска">
                 </div>
                 <div class="mobile-call-block">
-                    <img src="./images/icons/phone-call.svg" alt="Мобильная иконка вызова">
+                    <img src="../images/icons/phone-call.svg" alt="Мобильная иконка вызова">
                 </div>
             </div>
             <div class="header-messengers">
-                <img src="./images/icons/telegramm.png" alt="Телеграмм" class="telegramm-icon">
-                <img src="./images/icons/watsapp.png" alt="Телеграмм" class="watssup-icon">
+                <img src="../images/icons/telegramm.png" alt="Телеграмм" class="telegramm-icon">
+                <img src="../images/icons/watsapp.png" alt="Телеграмм" class="watssup-icon">
             </div>
             <div class="header-calculation">
                 <button class="calculation-button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Рассчитать стоимость</button>
@@ -64,7 +66,7 @@
         <div class="header-bottom-block">
             <ul class="header-bottom-menu">
                 <li class="menu-item"><a href="/about/index.html" class="menu-item-label">О компании</a></li>
-                <li class="menu-item"><a href="/repair_furniture/index.html" class="menu-item-label">Ремонт мебели</a></li>
+                <li class="menu-item active"><a href="/repair_furniture/index.html" class="menu-item-label">Ремонт мебели</a></li>
                 <li class="menu-item"><a href="/" class="menu-item-label">Перетяжка мебели</a></li>
                 <li class="menu-item"><a href="/prices/index.html" class="menu-item-label">Цены</a></li>
                 <li class="menu-item"><a href="/stock/index.html" class="menu-item-label">Акции</a></li>
@@ -75,47 +77,69 @@
         </div>
     </div>
     <div class="content">
-        <div class="main-about-block">
-            <div class="about-block-container">
-                <div class="about-left">
-                    <div class="about-firm">
-                        <div class="about-main-title">
-                            КАЧЕСТВЕННАЯ ПЕРЕТЯЖКА МЕБЕЛИ
-                        </div>
-                        <div class="about-under-block">
-                            <div class="about-under-title">
-                                БОЛЕЕ 200 реализованных ПРОЕКТОВ
-                            </div>
-                            <div class="separator">
-                            </div>
-                            <div class="about-under-title">
-                                10 лет опыта
-                            </div>
-                        </div>
-                        <button class="about-button">Подробнее</button>
+        <div class="repair-furniture-block">
+            <div class="repair-furniture-container">
+                <div class="repair-furniture-left">
+                    <div class="repair-furniture-title">
+                        Ремонт и перетяжка мебели в москве
                     </div>
-                    <div class="warranty"><span class="warranty-big-three">3</span>года гарантии</div>
+                    <div class="repair-furniture-undertitle">
+                        <div class="undertitle-item">Более 200 довольных клиентов</div>
+                        <div class="undertitle-separator"></div>
+                        <div class="undertitle-item">10 лет опыта</div>
+                        <div class="undertitle-separator"></div>
+                        <div class="undertitle-item">30 мастеров в москве</div>
+                    </div>
                 </div>
-                <div class="about-right">
-                    <form class="feedback-form">
-                        <div class="feedback-form-title">
-                            Ответим на все ваши вопросы
+                <div class="repair-furniture-right">
+                    <div class="repair-furnite-options">
+                        <div class="options-item">
+                            <img class="options-item-img" src="../images/icons/ticket.svg" alt="Бесплатный выезд иконка">
+                            <div class="options-text">
+                                Бесплатный выезд
+                            </div>
                         </div>
-                        <input id="FeedbackInputName" type="text" class="feedback-form-input" placeholder="Ваше имя*">
-                        <input id="FeedbackInputPhone" type="text" class="feedback-form-input" placeholder="Телефон*">
-                        <input type="submit" class="feedback-form-submit" value="Отправить">
-                    </form>
+                        <div class="options-item">
+                            <img class="options-item-img" src="../images/icons/history_time.svg" alt="Приезд от 30 минут иконка">
+                            <div class="options-text">
+                                Приезд от 30 минут
+                            </div>
+                        </div>
+                        <div class="options-item">
+                            <img class="options-item-img" src="../images/icons/guaranty.svg" alt="Гарантия иконка">
+                            <div class="options-text">
+                                Даём гарантию и чек
+                            </div>
+                        </div>
+                    </div>
+                    <div class="repair-furniture-number">
+                        <input class="repair-furniture-input" type="phone" name="phone" placeholder="Телефон*">
+                        <button class="repair-furnite-button">Отправить</button>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="content-container">
+            <div class="site-explorer">
+                <a href="/" class="explorer-item">
+                    Главная
+                </a>
+                <div class="explorer-separator"></div>
+                <a href="/about/index.html" class="explorer-item">
+                    О компании
+                </a>
+                <div class="explorer-separator"></div>
+                <a href="/about/index.html" class="explorer-item active">
+                    Ремонт мебели
+                </a>
+            </div>
             <div class="main-repair-block">
                 <div class="repair-block-title">
                     ремонт и перетяжка мебели в москве
                 </div>
                 <div class="repair-about-block">
                     <div class="repair-about-img-wrapper">
-                        <img src="./images/galary/image1.webp" alt="Ремонт и перетяжка мебели изображение" class="repair-about-block-img">
+                        <img src="../images/galary/image1.webp" alt="Ремонт и перетяжка мебели изображение" class="repair-about-block-img">
                     </div>
                     <div class="repair-about-text">
                         <div class="repair-about-text-top">
@@ -126,95 +150,275 @@
                         </div>
                     </div>
                 </div>
-                <div class="repair-block-galary">
-                    <div class="galary-menu-slider">
-                        <div class="galary-button-left"></div>
-                        <div class="galary-menu-wrapper">
-                            <ul class="galary-menu">
-                                <li class="galary-menu-item">Кафе</li>
-                                <li class="galary-menu-item">Ресторанов</li>
-                                <li class="galary-menu-item">Баров</li>
-                                <li class="galary-menu-item">Фудкортов</li>
-                                <li class="galary-menu-item active">Фитнес центров</li>
-                                <li class="galary-menu-item">Караоке клубов</li>
-                                <li class="galary-menu-item">Кальянных</li>
-                                <li class="galary-menu-item">Восточных ресторанов ЧАЙХАНА</li>
-                                <li class="galary-menu-item">Хинкальных</li>
-                                <li class="galary-menu-item">Зон ожидания То..</li>
-                            </ul>
-                        </div>
-                        <div class="galary-button-right"></div>
-                    </div>
-                    <div class="galary-images">
-                        <div class="galary-image-wrapper">
-                            <img class="galary-image-item" src="./images/galary/image.webp" alt="Фото из галерии" loading="lazy">
-                        </div>
-                        <div class="galary-image-wrapper">
-                            <img class="galary-image-item" src="./images/galary/image-1.webp" alt="Фото из галерии" loading="lazy">
-                        </div>
-                        <div class="galary-image-wrapper">
-                            <img class="galary-image-item" src="./images/galary/image-2.webp" alt="Фото из галерии" loading="lazy">
-                        </div>
-                    </div>
-                </div>
             </div>
-            <div class="our-services-block">
-                <div class="our-services-title">наши услуги</div>
-                <div class="our-items-block">
-                    <div class="our-services-item">
-                        <img class="our-services-image" src="./images/icons/services6.webp" alt="Ремонт мягкой мебели изображение" loading="lazy">
-                        <div class="our-services-image-title">
-                        ремонт мягкой мебели
-                        </div>
-                        <div class="our-services-text">
-                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. 
-                        </div>
-                    </div>
-                    <div class="our-services-item">
-                        <img class="our-services-image" src="./images/icons/services1.webp" alt="Ремонт кухонной мебели изображение" loading="lazy">
-                        <div class="our-services-image-title">
-                        ремонт кухонной мебели
-                        </div>
-                        <div class="our-services-text">
-                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. 
+            <div class="repair-prices-block">
+                <div class="repair-prices-title">Цены на перетяжку мебели</div>
+                <div class="prices-category-block">
+                    <div class="repair-prices-sploiler">
+                        <div class="repair-prices-item">
+                            <div class="prices-main-title">
+                                Цены на перетяжку диванов
+                            </div>
+                            <button class="prices-spolier-button"></button>
                         </div>
                     </div>
-                    <div class="our-services-item">
-                        <img class="our-services-image" src="./images/icons/services2.webp" alt="Ремонт кожанной мебели изображение" loading="lazy">
-                        <div class="our-services-image-title">
-                        ремонт кожанной мебели
+                    <div class="prices-include-item">
+                        <div class="include-item-name">
+                            Перетяжка дивана
                         </div>
-                        <div class="our-services-text">
-                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. 
-                        </div>
-                    </div>
-                    <div class="our-services-item">
-                        <img class="our-services-image" src="./images/icons/services3.webp" alt="Перетяжка мебели изображение" loading="lazy">
-                        <div class="our-services-image-title">
-                        перетяжка мебели
-                        </div>
-                        <div class="our-services-text">
-                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. 
+                        <div class="include-item-price">
+                            Цена работ*
                         </div>
                     </div>
-                    <div class="our-services-item">
-                        <img class="our-services-image" src="./images/icons/services4.webp" alt="Пошив чехлов изображение" loading="lazy">
-                        <div class="our-services-image-title">
-                        пошив чехлов
+                    <ul class="items-price-list">
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                    </ul>
+                    <div class="prices-include-item">
+                        <div class="include-item-name">
+                            Перетяжка мебельных гарнитуров
                         </div>
-                        <div class="our-services-text">
-                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. 
+                        <div class="include-item-price">
+                            Цена работ*
                         </div>
                     </div>
-                    <div class="our-services-item">
-                        <img class="our-services-image" src="./images/icons/services5.webp" alt="замена фурнитуры изображение" loading="lazy">
-                        <div class="our-services-image-title">
-                        замена фурнитуры
+                    <ul class="items-price-list">
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                    </ul>
+                    <ul class="items-price-list">
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                    </ul>
+                    <div class="prices-include-item">
+                        <div class="include-item-name">
+                            Частичная перетяжка дивана
                         </div>
-                        <div class="our-services-text">
-                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. 
+                        <div class="include-item-price">
+                            Цена работ*
                         </div>
                     </div>
+                    <ul class="items-price-list">
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                    </ul>
+                    <div class="prices-include-item">
+                        <div class="include-item-name">
+                            Перетяжка дивана кожей
+                        </div>
+                        <div class="include-item-price">
+                            Цена работ*
+                        </div>
+                    </div>
+                    <ul class="items-price-list">
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="prices-category-block">
+                    <div class="repair-prices-sploiler">
+                        <div class="repair-prices-item">
+                            <div class="prices-main-title">
+                                Цены на перетяжку кресел
+                            </div>
+                            <button class="prices-spolier-button"></button>
+                        </div>
+                    </div>
+                    <div class="prices-include-item">
+                        <div class="include-item-name">
+                            Перетяжка дивана
+                        </div>
+                        <div class="include-item-price">
+                            Цена работ*
+                        </div>
+                    </div>
+                    <ul class="items-price-list">
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                    </ul>
+                    <div class="prices-include-item">
+                        <div class="include-item-name">
+                            Перетяжка мебельных гарнитуров
+                        </div>
+                        <div class="include-item-price">
+                            Цена работ*
+                        </div>
+                    </div>
+                    <ul class="items-price-list">
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                    </ul>
+                    <div class="prices-include-item">
+                        <div class="include-item-name">
+                            Частичная перетяжка дивана
+                        </div>
+                        <div class="include-item-price">
+                            Цена работ*
+                        </div>
+                    </div>
+                    <ul class="items-price-list">
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                    </ul>
+                    <div class="prices-include-item">
+                        <div class="include-item-name">
+                            Частичная перетяжка дивана
+                        </div>
+                        <div class="include-item-price">
+                            Цена работ*
+                        </div>
+                    </div>
+                    <ul class="items-price-list">
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                        <li class="price-list-item">
+                            <div class="list-item-name">Диван 2-х местный</div>
+                            <div class="list-item-price">От <span class="item-price">5800</span> руб.</div>
+                            <a href="/" class="list-item-ref">Заказать</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="stock-block">
@@ -289,25 +493,25 @@
                             Позвоните нам, или напишите в любом удобном мессенджере
                         </div>
                         <div class="phone-number">
-                            <img class="phone-number-icon" src="./images/icons/mobile.png" alt="Телефон" loading="lazy">
+                            <img class="phone-number-icon" src="../images/icons/mobile.png" alt="Телефон" loading="lazy">
                             <div class="phone-number-label cooperation">
                                 8 (980) 215-30-01
                             </div>
                         </div>
                         <div class="phone-number">
-                            <img class="phone-number-icon" src="./images/icons/mobile.png" alt="Телефон" loading="lazy">
+                            <img class="phone-number-icon" src="../images/icons/mobile.png" alt="Телефон" loading="lazy">
                             <div class="phone-number-label cooperation">
                                 8 (980) 215-30-01
                             </div>
                         </div>
                         <div class="cooperation-messengers">
-                            <img src="./images/icons/telegramm.png" alt="Телеграмм" class="telegramm-icon" loading="lazy">
-                            <img src="./images/icons/watsapp.png" alt="Телеграмм" class="watssup-icon" loading="lazy">
+                            <img src="../images/icons/telegramm.png" alt="Телеграмм" class="telegramm-icon" loading="lazy">
+                            <img src="../images/icons/watsapp.png" alt="Телеграмм" class="watssup-icon" loading="lazy">
                         </div>
                     </div>
                 </div>
                 <div class="cooperation-right-block">
-                    <img src="./images/galary/cooperation-image.webp" alt="Сотрудничество изображение" class="cooperation-right-image" loading="lazy">
+                    <img src="../images/galary/cooperation-image.webp" alt="Сотрудничество изображение" class="cooperation-right-image" loading="lazy">
                 </div>
             </div>
             <div class="our-advantages-block">
@@ -345,78 +549,125 @@
                 </div>
                 <div class="choose-material-list">
                     <div class="material-item">
-                        <img src="./images/galary/shenil.webp" alt="Изображение материала" class="material-image" loading="lazy">
+                        <img src="../images/galary/shenil.webp" alt="Изображение материала" class="material-image" loading="lazy">
                         <div class="material-title">Шенил</div>
                         <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
                     </div>
                     <div class="material-item">
-                        <img src="./images/galary/rogojka.webp" alt="Изображение материала" class="material-image" loading="lazy">
+                        <img src="../images/galary/rogojka.webp" alt="Изображение материала" class="material-image" loading="lazy">
                         <div class="material-title">Рогожка</div>
                         <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
                     </div>
                     <div class="material-item">
-                        <img src="./images/galary/flok.webp" alt="Изображение материала" class="material-image" loading="lazy">
+                        <img src="../images/galary/flok.webp" alt="Изображение материала" class="material-image" loading="lazy">
                         <div class="material-title">Флок</div>
                         <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
                     </div>
                     <div class="material-item">
-                        <img src="./images/galary/jakkart.webp" alt="Изображение материала" class="material-image" loading="lazy">
+                        <img src="../images/galary/jakkart.webp" alt="Изображение материала" class="material-image" loading="lazy">
                         <div class="material-title">Жаккард</div>
                         <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
                     </div>
                     <div class="material-item">
-                        <img src="./images/galary/none.webp" alt="Изображение материала" class="material-image" loading="lazy">
+                        <img src="../images/galary/none.webp" alt="Изображение материала" class="material-image" loading="lazy">
                         <div class="material-title">Жаккард</div>
                         <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
                     </div>
                     <div class="material-item">
-                        <img src="./images/galary/velur.webp" alt="Изображение материала" class="material-image" loading="lazy">
+                        <img src="../images/galary/velur.webp" alt="Изображение материала" class="material-image" loading="lazy">
                         <div class="material-title">Велюр</div>
                         <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
                     </div>
                     <div class="material-item">
-                        <img src="./images/galary/ecoskin.webp" alt="Изображение материала" class="material-image" loading="lazy">
+                        <img src="../images/galary/ecoskin.webp" alt="Изображение материала" class="material-image" loading="lazy">
                         <div class="material-title">Экокожа</div>
                         <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
                     </div>
                     <div class="material-item">
-                        <img src="./images/galary/natureskin.webp" alt="Изображение материала" class="material-image" loading="lazy">
+                        <img src="../images/galary/natureskin.webp" alt="Изображение материала" class="material-image" loading="lazy">
                         <div class="material-title">Натуральная кожа</div>
                         <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
                     </div>
                     <div class="material-item">
-                        <img src="./images/galary/artificialskin.webp" alt="Изображение материала" class="material-image" loading="lazy">
+                        <img src="../images/galary/artificialskin.webp" alt="Изображение материала" class="material-image" loading="lazy">
                         <div class="material-title">Искусственная кожа</div>
                         <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
                     </div>
                     <div class="material-item">
-                        <img src="./images/galary/barhat.webp" alt="Изображение материала" class="material-image" loading="lazy">
+                        <img src="../images/galary/barhat.webp" alt="Изображение материала" class="material-image" loading="lazy">
                         <div class="material-title">Бархат</div>
                         <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
                     </div>
                     <div class="material-item">
-                        <img src="./images/galary/gobelen.webp" alt="Изображение материала" class="material-image" loading="lazy">
+                        <img src="../images/galary/gobelen.webp" alt="Изображение материала" class="material-image" loading="lazy">
                         <div class="material-title">Гобелен</div>
                         <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
                     </div>
                     <div class="material-item">
-                        <img src="./images/galary/nubuk.webp" alt="Изображение материала" class="material-image" loading="lazy">
+                        <img src="../images/galary/nubuk.webp" alt="Изображение материала" class="material-image" loading="lazy">
                         <div class="material-title">Нубук</div>
                         <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
                     </div>
                     <div class="material-item">
-                        <img src="./images/galary/artificialzamsh.webp" alt="Изображение материала" class="material-image" loading="lazy">
+                        <img src="../images/galary/artificialzamsh.webp" alt="Изображение материала" class="material-image" loading="lazy">
                         <div class="material-title">Искусственная замша</div>
                         <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
                     </div>
                     <div class="material-item">
-                        <img src="./images/galary/microfibr.webp" alt="Изображение материала" class="material-image" loading="lazy">
+                        <img src="../images/galary/microfibr.webp" alt="Изображение материала" class="material-image" loading="lazy">
                         <div class="material-title">Микрофибра</div>
                         <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
                     </div>
                     <div class="material-item">
-                        <img src="./images/galary/velvet.webp" alt="Изображение материала" class="material-image" loading="lazy">
+                        <img src="../images/galary/velvet.webp" alt="Изображение материала" class="material-image" loading="lazy">
                         <div class="material-title">Вельвет</div>
+                        <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="fittings-block">
+                <div class="fittings-title">
+                    Качественная фурнитура
+                </div>
+                <div class="fittings-list">
+                    <div class="fittings-item">
+                        <img src="../images/galary/gazlift.webp" alt="Изображение материала" class="fittings-image" loading="lazy">
+                        <div class="material-title">газлифты</div>
+                        <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
+                    </div>
+                    <div class="fittings-item">
+                        <img src="../images/galary/flizelin.webp" alt="Изображение материала" class="fittings-image" loading="lazy">
+                        <div class="material-title">флизелин</div>
+                        <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
+                    </div>
+                    <div class="fittings-item">
+                        <img src="../images/galary/roliki.webp" alt="Изображение материала" class="fittings-image" loading="lazy">
+                        <div class="material-title">ролики опорные</div>
+                        <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
+                    </div>
+                    <div class="fittings-item">
+                        <img src="../images/galary/coroba.webp" alt="Изображение материала" class="fittings-image" loading="lazy">
+                        <div class="material-title">короба защитные</div>
+                        <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
+                    </div>
+                    <div class="fittings-item">
+                        <img src="../images/galary/latoholders.webp" alt="Изображение материала" class="fittings-image" loading="lazy">
+                        <div class="material-title">Латодержатели</div>
+                        <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
+                    </div>
+                    <div class="fittings-item">
+                        <img src="../images/galary/mehanics.webp" alt="Изображение материала" class="fittings-image" loading="lazy">
+                        <div class="material-title">Ламели</div>
+                        <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
+                    </div>
+                    <div class="fittings-item">
+                        <img src="../images/galary/mehanics.webp" alt="Изображение материала" class="fittings-image" loading="lazy">
+                        <div class="material-title">Механизмы</div>
+                        <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
+                    </div>
+                    <div class="fittings-item">
+                        <img src="../images/galary/includes.webp" alt="Изображение материала" class="fittings-image" loading="lazy">
+                        <div class="material-title">Наполнители</div>
                         <div class="material-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</div>
                     </div>
                 </div>
@@ -446,13 +697,13 @@
                 </div>
                 <div class="our-works-image-container">
                     <div class="our-works-image-wrapper">
-                        <img src="./images/galary/works1.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
+                        <img src="../images/galary/works1.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
                     </div>
                     <div class="our-works-image-wrapper">
-                        <img src="./images/galary/works2.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
+                        <img src="../images/galary/works2.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
                     </div>
                     <div class="our-works-image-wrapper">
-                        <img src="./images/galary/works3.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
+                        <img src="../images/galary/works3.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
                     </div>
                     <div class="works-button-container">
                         <div class="works-button-block">
@@ -469,13 +720,13 @@
                         </div>
                     </div>
                     <div class="our-works-image-wrapper">
-                        <img src="./images/galary/works4.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
+                        <img src="../images/galary/works4.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
                     </div>
                     <div class="our-works-image-wrapper">
-                        <img src="./images/galary/works5.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
+                        <img src="../images/galary/works5.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
                     </div>
                     <div class="our-works-image-wrapper">
-                        <img src="./images/galary/works6.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
+                        <img src="../images/galary/works6.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -487,7 +738,7 @@
                     Текст-заполнитель — это текст, который имеет некоторые характеристики реального письменного текста, но является случайным набором слов или сгенерирован иным образом. Его можно использовать для отображения образца шрифтов, создания текста для тестирования или обхода спам-фильтра. Текст-заполнитель — это текст, который имеет некоторые характеристики реального письменного текста, но является случайным набором слов или сгенерирован иным образом. Его можно использовать для отображения образца шрифтов, создания текста для тестирования или обхода спам-фильтра. Текст-заполнитель — это текст, который имеет некоторые характеристики реального письменного текста, но является случайным набором слов или сгенерирован иным образом. Его можно использовать для отображения образца шрифтов, создания текста для тестирования или обхода спам-фильтра
                 </div>
                 <div class="renovations-paragraph">
-                    <img src="./images/galary/paragraph-image2.webp" alt="Изображение параграфа" class="paragraph-img" loading="lazy">
+                    <img src="../images/galary/paragraph-image2.webp" alt="Изображение параграфа" class="paragraph-img" loading="lazy">
                     <span class="paragraph-text">
                     Текст-заполнитель — это текст, который имеет некоторые характеристики реального письменного текста, но является случайным набором слов или сгенерирован иным образом. Его можно использовать для отображения образца шрифтов, создания текста для тестирования или обхода спам-фильтра. Текст-заполнитель — это текст, который имеет некоторые характеристики реального письменного текста, но является случайным набором слов или сгенерирован иным образом. Его можно использовать для отображения образца шрифтов, создания текста для тестирования или обхода спам-фильтра. Текст-заполнитель — это текст, который имеет некоторые характеристики реального письменного текста, но является случайным набором слов или сгенерирован иным образом. Его можно использовать для отображения образца шрифтов, создания текста для тестирования или обхода спам-фильтра.
                     </span>
@@ -502,7 +753,7 @@
                     <span class="paragraph-text">
                         Текст-заполнитель — это текст, который имеет некоторые характеристики реального письменного текста, но является случайным набором слов или сгенерирован иным образом. Его можно использовать для отображения образца шрифтов, создания текста для тестирования или обхода спам-фильтра. Текст-заполнитель — это текст, который имеет некоторые характеристики реального письменного текста, но является случайным набором слов или сгенерирован иным образом. Его можно использовать для отображения образца шрифтов, создания текста для тестирования или обхода спам-фильтра. Текст-заполнитель — это текст, который имеет некоторые характеристики реального письменного текста, но является случайным набором слов или сгенерирован иным образом. Его можно использовать для отображения образца шрифтов, создания текста для тестирования или обхода спам-фильтра.
                     </span>
-                    <img src="./images/galary/paragraph-image2.webp" alt="Изображение параграфа" class="paragraph-img" loading="lazy">
+                    <img src="../images/galary/paragraph-image2.webp" alt="Изображение параграфа" class="paragraph-img" loading="lazy">
                 </div>
             </div>
             <div class="calculation-cost-block">
@@ -568,25 +819,25 @@
                 </div>
                 <div class="our-guarantees-line">
                     <div class="our-guarantees-item">
-                        <img src="./images/galary/guarantees1.webp" alt="Наши гарантии изображение" class="our-guarantees-img" loading="lazy">
+                        <img src="../images/galary/guarantees1.webp" alt="Наши гарантии изображение" class="our-guarantees-img" loading="lazy">
                         <div class="our-guarantees-text">
                             Оформляем договор с четким обозначением сроков и стоимости
                         </div>
                     </div>
                     <div class="our-guarantees-item">
-                        <img src="./images/galary/guarantees2.webp" alt="Наши гарантии изображение" class="our-guarantees-img" loading="lazy">
+                        <img src="../images/galary/guarantees2.webp" alt="Наши гарантии изображение" class="our-guarantees-img" loading="lazy">
                         <div class="our-guarantees-text">
                             Гарантируем качество работ
                         </div>
                     </div>
                     <div class="our-guarantees-item">
-                        <img src="./images/galary/guarantees3.webp" alt="Наши гарантии изображение" class="our-guarantees-img" loading="lazy">
+                        <img src="../images/galary/guarantees3.webp" alt="Наши гарантии изображение" class="our-guarantees-img" loading="lazy">
                         <div class="our-guarantees-text">
                             Вы получаете качественную почти новую мебель
                         </div>
                     </div>
                     <div class="our-guarantees-item">
-                        <img src="./images/galary/guarantees4.webp" alt="Наши гарантии изображение" class="our-guarantees-img" loading="lazy">
+                        <img src="../images/galary/guarantees4.webp" alt="Наши гарантии изображение" class="our-guarantees-img" loading="lazy">
                         <div class="our-guarantees-text">
                             Уникальный сервис для юридических лиц
                         </div>
@@ -598,7 +849,7 @@
                     Отзывы клиентов
                 </div>
                 <div class="user-review-line">
-                    <img src="./images/galary/review.webp" alt="Фото пользователя" class="user-review-img" loading="lazy">
+                    <img src="../images/galary/review.webp" alt="Фото пользователя" class="user-review-img" loading="lazy">
                     <div class="user-review-right">
                         <div class="user-review-name">
                             Олег
@@ -699,7 +950,7 @@
     <div class="footer">
         <div class="footer-container">
             <a href="/" class="footer-logo">
-                <img src="./images/icons/logo.png" alt="AEGO">
+                <img src="../images/icons/logo.png" alt="AEGO">
             </a>
             <div class="footer-block-left">
                 <div class="footer-block-title">
@@ -743,7 +994,7 @@
             </div>
             <div class="footer-block">
                 <div class="location-block">
-                    <img src="./images/icons/gps.png" alt="Московская область, Пушкино,
+                    <img src="../images/icons/gps.png" alt="Московская область, Пушкино,
                     Соколовская улица, 22" class="location-icon">
                     <div class="location-label">
                         Московская область, Пушкино,
@@ -753,13 +1004,13 @@
                 <div class="footer-phone-wrapper">
                     <div class="phone-number-block">
                         <div class="phone-number">
-                            <img class="phone-number-icon" src="./images/icons/mobile.png" alt="Телефон">
+                            <img class="phone-number-icon" src="../images/icons/mobile.png" alt="Телефон">
                             <div class="phone-number-label">
                                 8 (980) 215-30-01
                             </div>
                         </div>
                         <div class="phone-number">
-                            <img class="phone-number-icon" src="./images/icons/mobile.png" alt="Телефон">
+                            <img class="phone-number-icon" src="../images/icons/mobile.png" alt="Телефон">
                             <div class="phone-number-label">
                                 8 (980) 215-30-01
                             </div>
@@ -770,23 +1021,23 @@
             </div>
             <div class="footer-block">
                 <div class="footer-email">
-                    <img src="./images/galary/email-letter.svg" alt="Иконка email" class="footer-email-icon" loading="lazy">
+                    <img src="../images/galary/email-letter.svg" alt="Иконка email" class="footer-email-icon" loading="lazy">
                     <div class="footer-email-text">
                         info@aego-plus.ru
                     </div>
                 </div>
                 <div class="footer-messengers">
-                    <img src="./images/icons/telegramm.png" alt="Телеграмм" class="telegramm-icon">
-                    <img src="./images/icons/watsapp.png" alt="Телеграмм" class="watssup-icon">
+                    <img src="../images/icons/telegramm.png" alt="Телеграмм" class="telegramm-icon">
+                    <img src="../images/icons/watsapp.png" alt="Телеграмм" class="watssup-icon">
                 </div>
                 <div class="footer-payments">
                     <div class="footer-payments-title">Мы принимаем:</div>
                     <div class="footer-payments-images">
-                        <img src="./images/не конвертированное/mir.svg" alt="Платежная система изображение" class="payment-img" loading="lazy">
-                        <img src="./images/не конвертированное/sbp.svg" alt="Платежная система изображение" class="payment-img" loading="lazy">
-                        <img src="./images/не конвертированное/mastercard.svg" alt="Платежная система изображение" class="payment-img" loading="lazy">
-                        <img src="./images/не конвертированное/visa.svg" alt="Платежная система изображение" class="payment-img" loading="lazy">
-                        <img src="./images/не конвертированное/mobile_payment.svg" alt="Платежная система изображение" class="payment-img" loading="lazy">
+                        <img src="../images/не конвертированное/mir.svg" alt="Платежная система изображение" class="payment-img" loading="lazy">
+                        <img src="../images/не конвертированное/sbp.svg" alt="Платежная система изображение" class="payment-img" loading="lazy">
+                        <img src="../images/не конвертированное/mastercard.svg" alt="Платежная система изображение" class="payment-img" loading="lazy">
+                        <img src="../images/не конвертированное/visa.svg" alt="Платежная система изображение" class="payment-img" loading="lazy">
+                        <img src="../images/не конвертированное/mobile_payment.svg" alt="Платежная система изображение" class="payment-img" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -804,6 +1055,5 @@
             </div>
         </div>
     </div>
-    <script lang="javascript/text" src="./js/slider/slider.js"></script>
 </body>
 </html>

@@ -1,0 +1,36 @@
+.about-company-block {
+    padding-top: 55px;
+}
+
+.about-company-title {
+    font-family: 'TenorSans-Regular';
+    text-transform: uppercase;
+    font-size: 35px;
+    padding-bottom: 55px;
+}
+
+.about-block {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.about-img-wrapper {
+    width: 370px;
+    height: 224px;
+}
+
+.repair-about-block-img {
+    
+    height: 100%;
+}
+
+.about-text {
+    font-family: 'Ubuntu-Regular';
+    font-size: 17px;
+    margin-left: 30px;
+    line-height: 28px;
+    color: var(--ligth-grey-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
