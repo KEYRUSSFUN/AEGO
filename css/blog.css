@@ -1,0 +1,55 @@
+.blog-block {
+    margin: 50px 0px;
+    font-family: 'Ubuntu-Regular';
+    
+}
+
+.blog-item {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.blog-img-wrapper {
+    width: 23.96%;
+    height: 270px;
+}
+
+.blog-img {
+    width: 100%;
+    height: 100%;
+}
+
+.blog-text-wrapper {
+    width: 74.61%;
+    color: var(--ligth-grey-color);
+    line-height: 28px;
+}
+
+.blog-datetime {
+    color: var(--bright-grey-color);
+}
+
+.blog-item-title {
+    font-size: 18px;
+    font-family: 'Ubuntu-Medium';
+    color: black;
+}
+
+.blog-text {
+    margin: 25px 0px 15px 0px;
+}
+
+.blog-button {
+    text-decoration: none;
+    font-family: 'Ubuntu-Bold';
+    padding: 10px 20px;
+    width: 106px;
+    height: 40px;
+    background: var(--mustard-color);
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+}

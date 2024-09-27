@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>AEGO</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/main-adaptive.css">
@@ -11,7 +11,7 @@
     <div class="header">
         <div class="header-top-block">
             <a href="/" class="header-logo">
-                <img src="./images/icons/logo.png" alt="AEGO">
+                <img src="./images/icons/logo.svg" alt="AEGO">
             </a>
             <div class="header-search-block">
                 <div class="header-search-title">
@@ -49,6 +49,9 @@
                 <div class="mobile-call-block">
                     <img src="./images/icons/phone-call.svg" alt="Мобильная иконка вызова">
                 </div>
+                <div class="mobile-calculation-block">
+                    <img src="./images/icons/calculator.svg" alt="Мобильная иконка вызова">
+                </div>
             </div>
             <div class="header-messengers">
                 <img src="./images/icons/telegramm.png" alt="Телеграмм" class="telegramm-icon">
@@ -62,6 +65,7 @@
             </div>
         </div>
         <div class="header-bottom-block">
+            <div class="burger-close"></div>
             <ul class="header-bottom-menu">
                 <li class="menu-item"><a href="/about/index.html" class="menu-item-label">О компании</a></li>
                 <li class="menu-item"><a href="/repair_furniture/index.html" class="menu-item-label">Ремонт мебели</a></li>
@@ -69,8 +73,40 @@
                 <li class="menu-item"><a href="/prices/index.html" class="menu-item-label">Цены</a></li>
                 <li class="menu-item"><a href="/stock/index.html" class="menu-item-label">Акции</a></li>
                 <li class="menu-item"><a href="/examples/index.html" class="menu-item-label">Примеры работ</a></li>
-                <li class="menu-item"><a href="/" class="menu-item-label">Отзывы</a></li>
-                <li class="menu-item"><a href="/" class="menu-item-label">Контакты</a></li>
+                <li class="menu-item"><a href="/reviews/index.html" class="menu-item-label">Отзывы</a></li>
+                <li class="menu-item"><a href="/contacts/index.html" class="menu-item-label">Контакты</a></li>
+                <div class="advanced-menu-bottom menu-bottom">
+                    <div class="phone-number-block menu-bottom">
+                        <div class="phone-number">
+                            <img class="phone-number-icon" src="./images/icons/mobile.png" alt="Телефон">
+                            <div class="phone-number-label">
+                                8 (980) 215-30-01
+                            </div>
+                        </div>
+                        <div class="phone-number">
+                            <img class="phone-number-icon" src="./images/icons/mobile.png" alt="Телефон">
+                            <div class="phone-number-label">
+                                8 (980) 215-30-01
+                            </div>
+                        </div>
+                        <button class="order-call-button" >Заказать звонок</button>
+                    </div>
+                    <div class="location-block menu-bottom">
+                        <img src="./images/icons/gps.png" alt="Московская область, Пушкино,
+                        Соколовская улица, 22" class="location-icon">
+                        <div class="location-label">
+                            Московская область, Пушкино,
+                            Соколовская улица, 22
+                        </div>
+                    </div>
+                </div>
+                <div class="advanced-menu-bottom menu-bottom">
+                    <div class="header-messengers menu-bottom">
+                        <img src="./images/icons/telegramm.png" alt="Телеграмм" class="telegramm-icon">
+                        <img src="./images/icons/watsapp.png" alt="Телеграмм" class="watssup-icon">
+                    </div>
+                </div>
+                
             </ul>
         </div>
     </div>
@@ -135,7 +171,7 @@
                                 <li class="galary-menu-item">Ресторанов</li>
                                 <li class="galary-menu-item">Баров</li>
                                 <li class="galary-menu-item">Фудкортов</li>
-                                <li class="galary-menu-item active">Фитнес центров</li>
+                                <li class="galary-menu-item">Фитнес центров</li>
                                 <li class="galary-menu-item">Караоке клубов</li>
                                 <li class="galary-menu-item">Кальянных</li>
                                 <li class="galary-menu-item">Восточных ресторанов ЧАЙХАНА</li>
@@ -444,39 +480,44 @@
                 <div class="our-works-title">
                     Наши работы
                 </div>
-                <div class="our-works-image-container">
-                    <div class="our-works-image-wrapper">
-                        <img src="./images/galary/works1.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
+                <div class="our-works-wrapper">
+                    <div class="our-works-image-container">
+                        <div class="our-works-image-wrapper">
+                            <img src="./images/galary/works1.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
+                        </div>
+                        <div class="our-works-image-wrapper">
+                            <img src="./images/galary/works2.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
+                        </div>
+                        <div class="our-works-image-wrapper">
+                            <img src="./images/galary/works3.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
+                        </div>
+                        <div class="works-button-container">
+                            <div class="works-button-block">
+                                <div class="our-works-text">Прямой диван</div>
+                                <button class="our-works-button">хочу так же</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="our-works-image-wrapper">
-                        <img src="./images/galary/works2.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
-                    </div>
-                    <div class="our-works-image-wrapper">
-                        <img src="./images/galary/works3.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
-                    </div>
-                    <div class="works-button-container">
-                        <div class="works-button-block">
-                            <div class="our-works-text">Прямой диван</div>
-                            <button class="our-works-button">хочу так же</button>
+                    <div class="our-works-image-container">
+                        <div class="works-button-container">
+                            <div class="works-button-block">
+                                <div class="our-works-text">Прямой диван</div>
+                                <button class="our-works-button">хочу так же</button>
+                            </div>
+                        </div>
+                        <div class="our-works-image-wrapper">
+                            <img src="./images/galary/works4.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
+                        </div>
+                        <div class="our-works-image-wrapper">
+                            <img src="./images/galary/works5.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
+                        </div>
+                        <div class="our-works-image-wrapper">
+                            <img src="./images/galary/works6.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
                         </div>
                     </div>
                 </div>
-                <div class="our-works-image-container">
-                    <div class="works-button-container">
-                        <div class="works-button-block">
-                            <div class="our-works-text">Прямой диван</div>
-                            <button class="our-works-button">хочу так же</button>
-                        </div>
-                    </div>
-                    <div class="our-works-image-wrapper">
-                        <img src="./images/galary/works4.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
-                    </div>
-                    <div class="our-works-image-wrapper">
-                        <img src="./images/galary/works5.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
-                    </div>
-                    <div class="our-works-image-wrapper">
-                        <img src="./images/galary/works6.webp" alt="Наши работы изображение" class="our-works-image" loading="lazy">
-                    </div>
+                <div class="our-works-more-wrapper">
+                    <a href="/examples/index.html" class="our-works-more">Смотреть все работы</a>
                 </div>
             </div>
             <div class="renovations-block">
@@ -716,9 +757,9 @@
                     </div>
                     <div class="footer-menu-column">
                         <ul class="footer-menu">
-                            <li><a class="footer-menu-item" href="/">Доставка</a></li>
+                            <li><a class="footer-menu-item" href="/delivery/index.html">Доставка</a></li>
                             <li><a class="footer-menu-item" href="/">Гарантии</a></li>
-                            <li><a class="footer-menu-item" href="/">Блог</a></li>
+                            <li><a class="footer-menu-item" href="/blog/index.html">Блог</a></li>
                             <li><a class="footer-menu-item" href="/">Контакты</a></li>
                         </ul>
                     </div>
@@ -805,5 +846,6 @@
         </div>
     </div>
     <script lang="javascript/text" src="./js/slider/slider.js"></script>
+    <script lang="javascript/text" src="./js/slider/burger-menu.js"></script>
 </body>
 </html>

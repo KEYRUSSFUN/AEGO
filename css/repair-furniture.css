@@ -115,6 +115,11 @@
     font-size: 35px;
     text-align: center;
     padding-bottom: 55px;
+    color: black;
+}
+
+.repair-prices-title.price {
+    text-align: left;
 }
 
 .repair-prices-sploiler {

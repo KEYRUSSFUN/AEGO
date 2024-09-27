@@ -1,0 +1,20 @@
+.payment-block {
+    font-family: 'Ubuntu-Regular';
+    margin-bottom: 50px;
+}
+
+.payment-title {
+    font-size: 17px;
+    margin-bottom: 15px;
+    line-height: 28px;
+}
+
+.payment-wrapper {
+    width: 55%;
+}
+
+.payment-img {
+    margin-left: 10px;
+    height: 82px;
+    max-width: 162px;
+}

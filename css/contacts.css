@@ -1,0 +1,56 @@
+.contacts-block {
+    margin: 50px 0px;
+}
+
+.contacts-item-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contacts-img {
+    width: 23.96%;
+}
+
+.contacts-title {
+    font-family: 'TenorSans-Regular';
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: left;
+}
+
+.contacts-right {
+    width: 73.96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-text {
+    font-family: 'Ubuntu-Regular';
+    font-size: 17px;
+    color: var(--ligth-grey-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: inherit;
+    line-height: 28px;
+}
+
+.contacts-button {
+    font-family: 'Ubuntu-Bold';
+    padding: 10px 20px;
+    width: 308px;
+    height: 40px;
+    background: var(--mustard-color);
+    border-radius: 4px;
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+

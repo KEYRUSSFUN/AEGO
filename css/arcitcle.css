@@ -1,0 +1,162 @@
+.article.title {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.article-small-title.title {
+    font-size: 30px;
+    text-align: left;
+    margin: 50px 0px;
+}
+
+.article-about-material {
+    font-family: 'Ubuntu-Regular';
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.article-img-wrapper {
+    width: 23.96%;
+}
+
+.article-img {
+    max-width: 100%;
+}
+
+.article-text {
+    width: 73.96%;
+    color: var(--ligth-grey-color);
+    line-height: 28px;
+}
+
+.article-content {
+   display: flex;
+}
+
+.article-content-left {
+    padding: 40px 24px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    background-color: var(--mustard-color);
+}
+
+.article-content-title {
+    font-family: 'Ubuntu-Bold';
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+
+.article-content-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-content-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article-content-item {
+    font-family: 'Ubuntu-Regular';
+    margin-right: 30px;
+    line-height: 28px;
+}
+
+.article-content-right {
+    padding: 40px 24px;
+    background-color: var(--super-light-grey-color);
+}
+
+.datatime-publishing {
+    font-family: 'Ubuntu-Bold';
+    color: var(--ligth-grey-color);
+    margin-bottom: 30px;
+}
+
+.article-datetime {
+    font-family: 'Ubuntu-Regular';
+    color: var(--ligth-grey-color);
+}
+
+.article-phragraph {
+    margin: 32px 0px;
+}
+
+.article-phragraph-title {
+    font-family: 'TenorSans-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.article-pharagraph-text {
+    font-family: 'Ubuntu-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: var(--ligth-grey-color);
+    margin-bottom: 10px;
+   
+}
+
+.article-phragraph-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-pharagraph-text.flex {
+    width: 73.96%;
+}
+
+.article-paragraph-img {
+    width: 23.96%;
+}
+
+.article-share-block {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.article-share-title {
+    font-family: 'Ubuntu-Regular';
+    margin-right: 30px;
+    color: var(--ligth-grey-color);
+}
+
+.article-share-line {
+    width: 34.26%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article-share-sociaty {
+    width: 48px;
+    height: 48px;
+}
+
+.our-help-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 50px 0px;
+}
+
+.our-help-item {
+    width: 15.03%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+}

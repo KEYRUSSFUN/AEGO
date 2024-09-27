@@ -28,11 +28,19 @@
     font-style: normal;
 }
 
-/* Inter */
+/* Inter-Bold */
 @font-face {
     font-family: 'Inter';
     src: url('../fonts/Inter/static/Inter_28pt-Bold.ttf') format('truetype');
     font-weight: 700;
+    font-style: normal;
+}
+
+/* Inter */
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('../fonts/Inter/static/Inter_18pt-Regular.ttf') format('truetype');
+    font-weight: 600;
     font-style: normal;
 }
 
@@ -55,6 +63,16 @@
 *::before,
 *::after {
 	box-sizing: border-box;
+}
+
+
+/* Модификаторы */
+
+.title {
+    font-family: 'TenorSans-Regular';
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
 }
 
 .header-top-block {
@@ -88,6 +106,10 @@
 }
 
 .header-burger {
+    display: none;
+}
+
+.burger-close {
     display: none;
 }
 
@@ -232,6 +254,14 @@
     display: flex;
     width: 243px;
     text-wrap: wrap;
+}
+
+.location-block.menu-bottom {
+    display: none;
+}
+
+.header-messengers.menu-bottom {
+    display: none;
 }
 
 .location-icon {
@@ -908,10 +938,11 @@
     margin-bottom: 60px;
     justify-content: space-between;
 }
+
 .our-works-image-wrapper {
     width: 27.53%;
-    height: 290px;
 }
+
 .our-works-image {
     border-radius: 5px;
     max-width: 100%;
@@ -922,7 +953,6 @@
     align-items: center;
     justify-content: center;
     width: 240px;
-    height: 290px;
 }
 
 .our-works-button {
@@ -949,6 +979,23 @@
     margin-bottom: 100px;
 }
 
+.our-works-more-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.our-works-more {
+    font-family: 'Ubuntu-Bold';
+    color: white;
+    padding: 10px 20px;
+    width: 246px;
+    height: 40px;
+    background: var(--mustard-color);
+    border-radius: 4px;
+    text-decoration: none;
+}
+
 .renovations-title {
     font-family: 'TenorSans-Regular';
     font-size: 30px;
@@ -967,11 +1014,11 @@
 
 .paragraph-text {
     display: block;
-    width: 1150px;
+    width: 74.48%;
 }
 
 .paragraph-img {
-    width: 370px;
+    width: 23.96%;
     height: 195px;
 }
 
@@ -1371,8 +1418,8 @@
 
 
 .site-explorer {
-    font-family: 'Ubuntu-Regular';
-    font-size: 17px;
+    font-family: 'Inter-Regular';
+    font-size: 13px;
     padding-top: 20px;
     padding-bottom: 15px;
     display: flex;
