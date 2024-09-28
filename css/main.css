@@ -264,6 +264,10 @@
     display: none;
 }
 
+.phone-number-block.menu-bottom {
+    display: none;
+}
+
 .location-icon {
     width: 16px;
     height: 16px;
